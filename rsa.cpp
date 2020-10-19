@@ -1,5 +1,6 @@
 //Warning: Encountered more data after announced end of track (frame 11787/11787). Frankenstein!
 #include<iostream>
+#include<math.h>
 #include <bits/stdc++.h>
 using namespace std;
 int hex(char ch);
@@ -47,7 +48,6 @@ int main(){
   getline(cin, msg_string, '\n');
   char temp[len(msg_string)];
   for(int i=0;i<len(msg_string);i++){
-    //temp[i] = msg_string[i];
     hex(msg_string[i]);
   }
 }//end main
